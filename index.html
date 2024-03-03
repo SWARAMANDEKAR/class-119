@@ -35,9 +35,9 @@
         <b style="color: red">Are you Angry?</b>
         <br>
       </p>
-      <label> Webcam View - </label>
+      
       <div class="col-md-4 col-sm-12 col-xs-12">
-	      <label>Snapshot - </label>
+	      <label> Webcam View - </label>
         <div id="camera"></div>
         <br><br>
         <button onclick="take_snapshot();" class="btn btn-warning">Capture Image</button>
@@ -51,7 +51,12 @@
         <p class="emotion_name" id="result_emotion_name2"></p>
         <p class="emoji" id="update_emoji2"></p>
       </div>
-
+      <div class="col-md-4 col-sm-12 col-xs-12">
+	      <label>Snapshot - </label>
+        <div id="result"></div>
+        <br><br>
+        <button onclick="check();" class="btn btn-success">Predict Emotion</button>
+      </div>
     </center>
 
   </div>
